@@ -61,6 +61,8 @@ public class Customer {
     @JoinColumn(name = "nationality", nullable = false)
     private Nationality nationality;
 
+    //houni nationality raditha enum wakteli hiya foreighkey mtepointi 3a country
+
 
     @Column(name = "ACCOUNT_OFFICER")
     private Integer accountOfficer;
