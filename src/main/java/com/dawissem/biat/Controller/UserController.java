@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 public class UserController {
+/*
     @Autowired //when y eve rwhen  call USer service methopod  dependecies indexation hiya
+*/
     private UserService userService;
     @GetMapping("user/{matricule}/{password}")
     public int UserLogin(@PathVariable("matricule") Integer matricule1, @PathVariable("password") String password1) {
