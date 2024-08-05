@@ -1,4 +1,4 @@
-package com.dawissem.bank2.Enum;
+package com.dawissem.biat.Enum;
 
 public enum Legal_Doc_Enum {
     CIN,

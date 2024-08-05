@@ -1,2 +1,7 @@
-package com.dawissem.biat.Enum;public enum CategoryAccount {
+package com.dawissem.biat.Enum;
+
+public enum CategoryAccount {
+    CHEQUE,
+    EPARGNE,
+    COURANT
 }

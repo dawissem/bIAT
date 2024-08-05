@@ -1,10 +1,7 @@
-package com.dawissem.bank2.Enum;
+package com.dawissem.biat.Enum;
 
 public enum CustomerEnum {
     PP,
-    PM, CustomerEnum;
+    PM
 
-    public static CustomerEnum getCustomerEnum() {
-        return CustomerEnum;
-    }
-}
+ }
